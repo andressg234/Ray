@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/foto" />
+
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@id/foto"
+        android:layout_marginTop="107dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/foto2" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_below="@+id/foto">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe1"
+            android:layout_width="match_parent"
+            android:layout_height="106dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_texto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/tv_texto_foto1"
+                    android:textSize="24sp" />
+
+            </ScrollView>
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_below="@id/foto2">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe2"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_below="@id/foto2">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/tv_texto_foto2"
+                android:textSize="24sp"/>
+
+        </ScrollView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ray</string>
+    <string name="tv_eslogan">Fotografia</string>
+    <string name="tv_titulo">Ray</string>
+    <string name="et_user">User</string>
+    <string name="et_pass">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="texto">fffffffffffffffffffffffff</string>
+    <string name="tv_texto_foto1">FOTOGRAFIA 1 vdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfm</string>
+    <string name="tv_texto_foto2">FOTOGRAFIA 2 vdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfmvdfvfdbmdkbndlkmvkmfklvmfmvkfmkvmfkmvkfmvkmfkvmfkmvkfmvkfvfvfdvfdbfgnbhnmgfnghmgfmgfm</string>
+    <string name="tv_ray">Ray</string>
+</resources>
